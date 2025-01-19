@@ -1,16 +1,14 @@
 {
-  "object": {
-    "pins": [
-      {
-        "package": "XCERequirement",
-        "repositoryURL": "https://github.com/XCEssentials/Requirement",
-        "state": {
-          "branch": null,
-          "revision": "4952eab8ae586047401075c2d6e6e5d21182ba00",
-          "version": "2.6.0"
-        }
+  "pins" : [
+    {
+      "identity" : "xcerequirement",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/XCEssentials/XCERequirement",
+      "state" : {
+        "revision" : "4fb67bfac01f166dc4938759a8265940a74f6995",
+        "version" : "2.6.1"
       }
-    ]
-  },
-  "version": 1
+    }
+  ],
+  "version" : 2
 }

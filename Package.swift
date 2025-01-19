@@ -1,4 +1,4 @@
-// swift-tools-version:5.3
+// swift-tools-version: 5.9
 
 import PackageDescription
 
@@ -7,17 +7,11 @@ let package = Package(
     products: [
         .library(
             name: "XCEValidatableValue",
-            targets: [
-                "XCEValidatableValue"
-            ]
+            targets: ["XCEValidatableValue"]
         )
     ],
     dependencies: [
-        .package(
-            name: "XCERequirement",
-            url: "https://github.com/XCEssentials/Requirement",
-            from: "2.2.0"
-        )
+        .package(url: "https://github.com/XCEssentials/XCERequirement", .upToNextMajor(from: "2.6.0"))
     ],
     targets: [
         .target(
